@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+       
+       nav {
+            background-color: #333; /* 네비게이션의 배경색 설정 */
+            overflow: hidden; /* 네비게이션 내용이 넘칠 경우 숨김 */
+            grid-column: 1 / span 3; /* 3개의 컬럼을 가득 채움 */
+        }
+
+        nav a {
+            float: left; /* 왼쪽 정렬 */
+            display: block; /* 블록 요소로 표시 */
+            color: white; /* 글자 색상 */
+            text-align: center; /* 텍스트 가운데 정렬 */
+            padding: 14px 16px; /* 내부 여백 */
+            text-decoration: none; /* 밑줄 제거 */
+        }
+
+        nav a:hover {
+            background-color: #ddd; /* 호버 상태의 배경색 */
+            color: black; /* 호버 상태의 글자색 */
+        }
+
+        /* 헤더 스타일 */
+        header {
+            text-align: center; /* 가운데 정렬 */
+            grid-column: 1 / span 3; /* 3개의 컬럼을 가득 채움 */
+        }
+        .container {
+            display: flex;   /* 컨테이너를 세로 정렬 */
+            align-items: center;
+            justify-content: space-between;
+            /* 추가적으로 필요한 스타일 */
+            margin: 20px; /* 컨테이너 간 여백 조정 */
+            border: 1px solid #ccc; /* 테두리 스타일 및 색상 */
+            padding: 20px; /* 내부 여백 */
+            background-color: white; /* 배경색 설정 */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+        }
+
+        .container img {
+            max-width: 350px;
+            height: 200px;
+            border-radius: 5px; /* 이미지 모서리 둥글게 */
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>GAME REVIEW!</h1>
+    </header>
+    <!-- nav 에 상단바  -->
+    <nav>
+        <a href="페이지 소개.html">Info</a>
+        <a href="게임 뉴스.html">Game News & Update</a>
+        <a href="메인 페이지.html">Main Page</a>
+    </nav>
+
+    <div class="container-wrapper">
+        <div class="container">
+            <img src="배틀빗 업데이트.png" alt="Game Image"> 
+                <p><b>BATTLE BIT REMASTERED 업데이트 2.2.2의 새로운 기능:</b> 2023년 12월 21일에 업데이트 되었습니다. 개발자로서 우리와 우리 주변에 모인 커뮤니티 모두에게 중요한 날입니다. 여러분의 놀라운 지원이 없었다면 우리는 이 일을 해낼 수 없었을 것이며, 이 여정을 함께 계속하기를 기대합니다!
+                    간략한 요약을 위해 BattleBIt 세계에서 무슨 일이 일어나고 있는지 알려드리겠습니다! 새로운 모드, 새로운 무기, 새로운 지도, 새로운 기능(3D 스포팅)</p>
+
+        </div>
+    </div>
+
+
+    <div class="container-wrapper">
+        <div class="container">
+            <img src="원신1.png" alt="Game Image"> 
+                <p><b>원신 「죄인의 원무곡」 4.2 버전 업데이트:</b> 원신이 2023, 11월 8일에 업데이트 되었습니다. 신규 지역 폰타인의 「모르트 구역」과 「에리니에스 숲 구역」이 개방됩니다. 또한, 신규 캐릭터와 신규 임무가 추가되었습니다. 신규 이벤트 텔크시의 기묘한 모험, 미니 버섯몬 판타지, 이미지 식별 연구 잃어버린 도시 전선·수역 등이 추가되었으니 한번 플레이해보세요!</p>
+            </div>
+    </div>
+
+ 
+
+    <div class="container-wrapper">
+        <div class="container">
+            <img src="산소부족 업데이트.png" alt="Game Image"> 
+                <p><b>Oxygen Not Included의 10월 QOL 업데이트:</b> 동물 테마 개선 사항: 랭글링, 이동 도구, 가스 소비 및 새로운 필드 가이드!
+                    Spaced Out에 새로운 Critter Cargo Bay 모듈을 추가했습니다!
+                    스토리지 필터 사이드스크린에 검색창을 추가했습니다!
+                    새로운 광 센서 건물을 추가했습니다!
+                    어떤 건물이 산업 기계로 간주되는지 개정되었습니다!
+                    이제 청사진을 재활용할 수 있습니다!</p>
+
+        </div>
+    </div>
+</body>
+</html>
